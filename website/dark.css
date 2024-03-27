@@ -1,0 +1,14 @@
+/* colors for dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #322222;
+    }
+
+    h1 {
+        color: #DEEEEE;
+    }
+    p {
+        color: #DEEEEE;
+    }
+}
+
