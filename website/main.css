@@ -1,3 +1,33 @@
-p {
-    max-width: 250px;
+:root {
+    --highlight-color: #B16286;
+    --url-color: #458588;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 1.25em;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0.75rem;
+}
+
+a {
+    color: var(--url-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--highlight-color);
 }
